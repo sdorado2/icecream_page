@@ -1,0 +1,66 @@
+
+/* desktop view */
+
+@media (max-width: 1080px) {
+    body {
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlxeFEyphwntn4s86sgfBntVUaJZcSztK8bA&usqp=CAU');
+      color : greenyellow ;
+    }
+    .cone{
+        width: 490px;
+        height: 90px;
+        background-image: url('https://previews.123rf.com/images/seamartini/seamartini1506/seamartini150600247/41627225-strawberry-ice-cream-waffle-cones-seamless-pattern-background-in-cartoon-style-for-snack-food-design.jpg');
+        background-size: cover;
+    }
+    .mainContainer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+  }
+
+  /*  -------------------------------------------------------  */
+
+  /* ipad midscreen  */
+
+@media (max-width: 720px) {
+    body {
+      background-image: url('https://i.pinimg.com/originals/6d/15/08/6d15080f44c7bd3eddda557643d94802.jpg');
+      color: black;
+    }
+    .cone{
+        width: 290px;
+        height: 90px;
+        background-image: url('https://previews.123rf.com/images/tianas/tianas2006/tianas200600435/148983166-seamless-pattern-with-vanilla-ice-cream-delicious-balls-of-ice-cream-in-a-waffle-cone-wallpaper-prin.jpg');
+        background-size: cover;
+    }
+    .mainContainer{
+        display: flex;
+        justify-content: space-around;
+    }
+  }
+
+  /*  -------------------------------------------------------  */
+  
+  /* mobile view */
+
+@media (max-width: 480px) {
+    body {
+      background-image: url('https://st2.depositphotos.com/4278641/9233/i/950/depositphotos_92332494-stock-photo-chocolate-ice-cream-background.jpg');
+      color: white;
+    }
+
+    .cone{
+        width: 90px;
+        height: 90px;
+        background-image: url('https://content.mycutegraphics.com/backgrounds/food/chocolate-ice-cream-background.gif');
+        background-size: cover;
+    }
+    
+    .mainContainer{
+        display: block;
+        justify-content: space-evenly;
+    }
+  }
+
+  /*  -------------------------------------------------------  */
+
